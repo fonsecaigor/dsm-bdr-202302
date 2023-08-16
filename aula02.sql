@@ -22,6 +22,8 @@ alter table emprestimo rename to tbl_emprestimo;
 alter table conta rename to tbl_conta;
 alter table agencia rename to tbl_agencia;
 alter table agencia rename column cidade_agencia to endereco_agencia;
+create schema igor;
+
 
 select * from (nome das tb);
 
@@ -30,5 +32,3 @@ select * from (nome das tb);
 /* NO PSQL > \c(nome do bd) conectar ao banco;
 \dt listar todas tabelas;
 \d(nome da tb) detalhar tabela. */
-
-
