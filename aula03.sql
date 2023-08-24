@@ -15,13 +15,8 @@ alter table tbl_livros add column status chk_status;
 
 alter table tbl_livros add constraint foreign key (codigo_titulo) references tbl_titulo (codigo_titulo);
 
-insert into tbl_cliente values(1,'Joao da Silva','Sao Paulo','Rua A, 123');
 
-insert into tbl_titulo values(1,'Aventuras Urbanas','Uma história emocionante','DRAMA');
-insert into tbl_titulo values(2,'Mistérios Antigos','Enigmas por resolver','COMEDIA');
-insert into tbl_titulo values(3,'Amor nas Estrelas','Um romance intergalático','DRAMA');
-insert into tbl_titulo values(4,'Código Enigmático','Secreto ocultos','COMEDIA');
-insert into tbl_titulo values(5,'Histórias Perdidas','Contos esquecidos','DRAMA');
+
 
 
 
