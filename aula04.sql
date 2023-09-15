@@ -24,3 +24,6 @@ insert into tbl_emprestimo values(3,3,1);
 insert into tbl_emprestimo values(4,4,5);
 insert into tbl_emprestimo values(5,5,3);
 
+update tbl_livros set status = 'disponivel' where status = 'alugado'
+
+delete from tbl_cliente2 where codigo >= 3
